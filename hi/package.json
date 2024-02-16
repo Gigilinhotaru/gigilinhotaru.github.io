@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hsiangfeng/example-gh-pages.git"
+    "url": "git+https://gigilinhotaru.github.io/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hsiangfeng/example-gh-pages/issues"
+    "url": "https://gigilinhotaru.github.io/"
   },
   "homepage": "https://github.com/hsiangfeng/example-gh-pages#readme",
   "dependencies": {
