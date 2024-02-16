@@ -17,9 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"deploy": "gh-pages -d public",
-  "homepage": "https://gigilinhotaru.github.io/hi",
-"predeploy": "npm run build"
+	"deploy": "gh-pages -d public"
   },
   "eslintConfig": {
     "extends": [
