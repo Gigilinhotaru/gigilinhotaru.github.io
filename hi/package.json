@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gigilinhotaru.github.io/hi/src/index.js"
+    "url": "git+https://github.com/gigilinhotaru/hi.git"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
