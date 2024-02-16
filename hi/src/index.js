@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
-import App from './01-base/06-事件綁定-2'
+import App from './01-base/10-2-todolist'
 
 ReactDOM.render(
   <App></App>,document.getElementById("root"))

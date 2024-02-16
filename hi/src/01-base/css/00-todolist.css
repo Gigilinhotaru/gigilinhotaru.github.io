@@ -1,0 +1,90 @@
+body {
+  font-family: system-ui;
+  background-image: url(https://imgur.com/8vEjyOC.gif);
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+  /* background-color: #f4f4f4; */
+  color: #333; /* Dark text for better readability */
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+  color: #333; /* Ensures text in inputs is dark for better contrast */
+}
+
+button {
+  padding: 10px 15px;
+  color: #333; /* Changed to dark for better contrast against lighter backgrounds */
+  background-color: #e7e7e7; /* Lighter background for buttons to ensure text is readable */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px; /* Added margin for spacing */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.addTaskButton, .filterButton {
+  background-color: #5cb85c; /* Green background for add task and filter buttons */
+  color: #fff; /* White text for better contrast */
+}
+
+.filterButton:not(.active) {
+  background-color: #5bc0de; /* Light blue for inactive filter buttons */
+}
+
+.filterButton.active {
+  background-color: #0275d8; /* Darker blue for active filter button */
+  color: #fff; /* Ensuring text is white for contrast */
+}
+
+.deleteButton {
+  background-color: #d9534f; /* Red background for delete button */
+}
+
+.editButton, .cancelButton {
+  background-color: #f0ad4e; /* Orange background for edit and cancel buttons */
+}
+
+.markAsDoneButton, .markAsUndoneButton {
+  background-color: #292b2c; /* Dark background for mark as done/undone buttons */
+  color: #fff; /* White text for contrast */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff; /* Light background for list items */
+  color: #333; /* Dark text for contrast */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.hidden{
+  display: none;
+}
