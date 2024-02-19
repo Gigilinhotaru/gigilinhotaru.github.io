@@ -42,8 +42,9 @@ export default class App extends Component {
               }></span>
               {/* <button onClick={this.handleDelClick.bind(this,index)}>del</button> */}
 
-              <button onClick={()=>this.handleDelClick
-              (index)}>del</button>
+              <button className={()=>this.handleDelClick(index)===0?'':'deleteButton'}>Delete</button>
+              {/* <button onClick={()=>this.handleDelClick
+              (index)}>del</button> */}
             </li>
               )
           }
