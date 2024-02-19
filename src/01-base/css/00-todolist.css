@@ -1,5 +1,5 @@
 body {
-  font-family: system-ui;
+  font-family: "微軟正黑體";
   background-image: url(https://imgur.com/8vEjyOC.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -52,35 +52,35 @@ button:hover {
   cursor: pointer;
 }
 
-.addTaskButton,
+/* .addTaskButton,
 .filterButton {
-  background-color: #5cb85c; /* Green background for add task and filter buttons */
-  color: #fff; /* White text for better contrast */
-}
+  background-color: #5cb85c; 
+  /* color: #fff; 
+/* } */
 
 .filterButton:not(.active) {
-  background-color: #5bc0de; /* Light blue for inactive filter buttons */
+  background-color: #5bc0de; 
 }
 
-.filterButton.active {
-  background-color: #0275d8; /* Darker blue for active filter button */
-  color: #fff; /* Ensuring text is white for contrast */
-}
+/* .filterButton.active {
+  background-color: #0275d8;
+  color: #fff; 
+} */
 
-.deleteButton {
-  background-color: #d9534f; /* Red background for delete button */
-}
+/* .deleteButton {
+  background-color: #d9534f; 
+} */
 
-.editButton,
+/* .editButton,
 .cancelButton {
-  background-color: #f0ad4e; /* Orange background for edit and cancel buttons */
-}
-
+  background-color: #f0ad4e; 
+} */
+/* 
 .markAsDoneButton,
 .markAsUndoneButton {
-  background-color: #292b2c; /* Dark background for mark as done/undone buttons */
-  color: #fff; /* White text for contrast */
-}
+  background-color: #292b2c; 
+  color: #fff; 
+} */
 
 ul {
   list-style: none;

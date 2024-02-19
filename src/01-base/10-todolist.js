@@ -54,7 +54,15 @@ export default class App extends Component {
 
         {/* {this.state.list.length===0 && <div>暫無待辦事項</div>}  */}
 
-        <div className={this.state.list.length===0?'':'hidden'}>暫無待辦事項</div>
+        <div className={this.state.list.length===0?'':'hidden'}>
+        <pre>
+        　 　 　 　∧＿∧　　　∩,＿∧　　　 ∧＿∧ﾞ
+　　　　　　 (´･ω･｀) 　　| |･ω･｀) 　　(´･ω･　)
+　　　　（( ⊂ 　　　 ⊃ 　/　　　 ,⊃ （⊂、　　　⊃ﾞ
+　　　　（( ⊂,,,　　ノﾞ　((（　　,,_,,⊃ﾞ　 （(⊂,,,_,,　）
+　　 　 　 　　（__/,,　　　　ヽ_）,, 　　　　　　　（_/,
+        </pre>
+          </div>
       </div>
     )
   }
