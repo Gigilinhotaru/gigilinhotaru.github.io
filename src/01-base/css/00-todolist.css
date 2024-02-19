@@ -26,6 +26,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   border-radius: 4px;
   width: calc(100% - 22px);
+  background-color: black;
   color: #ddd; /* Ensures text in inputs is dark for better contrast */
 }
 
