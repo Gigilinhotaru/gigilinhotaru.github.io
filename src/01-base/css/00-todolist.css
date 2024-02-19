@@ -14,7 +14,7 @@ body {
 .App {
   max-width: 600px;
   margin: auto;
-  background: white;
+  background: black;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -23,10 +23,10 @@ body {
 input[type="text"] {
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #000;
+  border: 1px solid #ddd;
   border-radius: 4px;
   width: calc(100% - 22px);
-  color: #fff; /* Ensures text in inputs is dark for better contrast */
+  color: #ddd; /* Ensures text in inputs is dark for better contrast */
 }
 
 button {
