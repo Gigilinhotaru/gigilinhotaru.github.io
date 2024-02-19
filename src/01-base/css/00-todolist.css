@@ -23,23 +23,24 @@ body {
 input[type="text"] {
   padding: 10px;
   margin: 10px 0;
+  font-family: "微軟正黑體";
   border: 1px solid #ddd;
   border-radius: 4px;
   width: calc(100% - 22px);
-  background-color: black;
-  color: #ddd; /* Ensures text in inputs is dark for better contrast */
+  color: #000; /* Ensures text in inputs is dark for better contrast */
 }
 
 button {
   text-align: center;
-  width: 250px;
-  height: 60px;
-  background-image: linear-gradient(to right, #6eccaf 0%, #344d67 100%);
-  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  /* background-image: linear-gradient(to right, #6eccaf 0%, #344d67 100%); */
+  background-color: #000;
+  border-radius: 20px;
   border: none;
   color: white;
   font-family: "微軟正黑體";
-  font-size: 20px;
+  /* font-size: 20px; */
   text-decoration: none;
   padding: 15px;
   margin: 10px;
@@ -47,6 +48,8 @@ button {
 
 button:hover {
   opacity: 0.8;
+  background: #ff8360;
+  cursor: pointer;
 }
 
 .addTaskButton,

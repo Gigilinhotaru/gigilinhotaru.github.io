@@ -25,8 +25,8 @@ export default class App extends Component {
       <div>
         {/* <input ref="mytext"/> */}
         <input ref={this.myref}/>
-        <button className={this.handleClick2===0?'':'addTaskButton'}>Add Task</button>
-        {/* <button onClick={this.handleClick2}>Add</button> */}
+        {/* <button className={this.handleClick2===0?'':'addTaskButton'}>Add Task</button> */}
+        <button onClick={this.handleClick2}>Add</button>
 
         <ul>
           {
@@ -42,9 +42,9 @@ export default class App extends Component {
               }></span>
               {/* <button onClick={this.handleDelClick.bind(this,index)}>del</button> */}
 
-              <button className={()=>this.handleDelClick(index)===0?'':'deleteButton'}>Delete</button>
-              {/* <button onClick={()=>this.handleDelClick
-              (index)}>del</button> */}
+              {/* <button className={()=>this.handleDelClick(index)===0?'':'deleteButton'}>Delete</button> */}
+              <button onClick={()=>this.handleDelClick
+              (index)}>Del</button>
             </li>
               )
           }
