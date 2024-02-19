@@ -2,9 +2,9 @@ body {
   font-family: system-ui;
   background-image: url(https://imgur.com/8vEjyOC.gif);
   background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   /* background-color: #f4f4f4; */
   color: #333; /* Dark text for better readability */
   margin: 0;
@@ -17,9 +17,8 @@ body {
   background: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 
 input[type="text"] {
   padding: 10px;
@@ -31,20 +30,26 @@ input[type="text"] {
 }
 
 button {
+  text-align: center;
+  width: 250px;
+  height: 60px;
+  background-image: linear-gradient(to right, #121a17 0%, #e70966 100%);
+  border-radius: 10px;
+  color: white;
+  font-family: "微軟正黑體";
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
   padding: 10px 15px;
-  color: #333; /* Changed to dark for better contrast against lighter backgrounds */
-  background-color: #e7e7e7; /* Lighter background for buttons to ensure text is readable */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5px; /* Added margin for spacing */
+  cursor: pointer; /* Added margin for spacing */
 }
 
 button:hover {
   opacity: 0.8;
 }
 
-.addTaskButton, .filterButton {
+.addTaskButton,
+.filterButton {
   background-color: #5cb85c; /* Green background for add task and filter buttons */
   color: #fff; /* White text for better contrast */
 }
@@ -62,11 +67,13 @@ button:hover {
   background-color: #d9534f; /* Red background for delete button */
 }
 
-.editButton, .cancelButton {
+.editButton,
+.cancelButton {
   background-color: #f0ad4e; /* Orange background for edit and cancel buttons */
 }
 
-.markAsDoneButton, .markAsUndoneButton {
+.markAsDoneButton,
+.markAsUndoneButton {
   background-color: #292b2c; /* Dark background for mark as done/undone buttons */
   color: #fff; /* White text for contrast */
 }
@@ -82,9 +89,9 @@ li {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.hidden{
+.hidden {
   display: none;
 }
