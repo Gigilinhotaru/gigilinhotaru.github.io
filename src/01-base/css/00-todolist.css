@@ -31,17 +31,17 @@ input[type="text"] {
 
 button {
   text-align: center;
-  width: 250px;
-  height: 60px;
-  background-image: linear-gradient(to right, #121a17 0%, #e70966 100%);
-  border-radius: 10px;
+  width: 25px;
+  height: 6px;
+  background-image: linear-gradient(to right, #6eccaf 0%, #344d67 100%);
+  border-radius: 50px;
+  border: none;
   color: white;
   font-family: "微軟正黑體";
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
+  padding: 15px;
   margin: 10px;
-  padding: 10px 15px;
-  cursor: pointer; /* Added margin for spacing */
 }
 
 button:hover {
