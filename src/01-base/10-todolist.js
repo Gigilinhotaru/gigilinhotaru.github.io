@@ -25,7 +25,8 @@ export default class App extends Component {
       <div>
         {/* <input ref="mytext"/> */}
         <input ref={this.myref}/>
-        <button onClick={this.handleClick2}>Add</button>
+        <button className={this.handleClick2===0?'':'addTaskButton'}>Add Task</button>
+        {/* <button onClick={this.handleClick2}>Add</button> */}
 
         <ul>
           {
