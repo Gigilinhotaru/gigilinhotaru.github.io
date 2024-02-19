@@ -31,13 +31,18 @@ input[type="text"] {
 }
 
 button {
-  padding: 10px 15px;
-  color: #333; /* Changed to dark for better contrast against lighter backgrounds */
-  background-color: #e7e7e7; /* Lighter background for buttons to ensure text is readable */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5px; /* Added margin for spacing */
+  text-align: center;
+        width: 250px;
+        height: 60px;
+        background-image: linear-gradient(to right, #6eccaf 0%, #344d67 100%);
+        border-radius: 50px;
+        border: none;
+        color: white;
+        font-family: "微軟正黑體";
+        font-size: 20px;
+        text-decoration: none;
+        padding: 15px;
+        margin: 10px;
 }
 
 button:hover {
